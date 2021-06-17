@@ -1,0 +1,55 @@
+:root {
+    --yellow-morning-1: #F4EAB0;
+    --yellow-morning-2: #F2DF8F;
+    --yellow-morning-3: #ECB86A;
+    --yellow-morning-4: #EEB74F;
+    --yellow-morning-5: #FFE8BC;
+}
+
+* { margin: 0; padding: 0;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#background {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--yellow-morning-1);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../public/fonts/ds_digital/DS-DIGIT.TTF);
+}
+
+.current-time {
+    font-family: myFirstFont;
+    font-size: 14vw;
+    z-index: 1;
+}
+
+.menu-container {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 16px;
+}
+
+.description {
+    font-family: monospace;
+    font-size: 1vw;
+}
+
+.wake-up {
+    font-family: myFirstFont;
+    font-size: 4vw;
+}
