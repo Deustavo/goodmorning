@@ -8,7 +8,7 @@ function startTime() {
     document.getElementById('txt').innerHTML =
     h + ":" + m + ":" + s;
     wakeupTime(today);
-    let t = setTimeout(startTime, 1000);
+    let t = setTimeout(startTime, 1000)
 }
 
 function checkTime(i) {
