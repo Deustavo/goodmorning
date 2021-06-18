@@ -33,7 +33,7 @@ function wakeupTime(today) {
 
     if (parseInt(brilho) > 90) {
         document.getElementById('background').style.filter = `brightness(0)`;
-        document.getElementById('body').style.color = "white";
+        document.getElementById('body').style.color = "#333";
     } else if (parseInt(brilho) <= 90 && parseInt(brilho) > 0) {
         document.getElementById('background').style.filter = `brightness(0.${100 - parseInt(brilho)})`;
         document.getElementById('body').style.color = "#404040";
