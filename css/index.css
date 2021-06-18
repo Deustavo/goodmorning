@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(../public/fonts/ds_digital/DS-DIGIT.TTF);
+    src: url(public/fonts/ds_digital/DS-DIGIT.TTF);
 }
 
 .current-time {
